@@ -1,0 +1,14 @@
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\bin\Debug\W5_B2.exe.config
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\bin\Debug\W5_B2.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\bin\Debug\W5_B2.pdb
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.csprojAssemblyReference.cache
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.Form1.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.Properties.Resources.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.csproj.GenerateResource.cache
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.pdb
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\bin\Debug\Week4_B1.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\bin\Debug\Week4_B1.pdb
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\bin\Debug\Week4_B1.exe.config
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\Week4_B1.Form2.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\W5_B2\obj\Debug\W5_B2.csproj.CopyComplete
