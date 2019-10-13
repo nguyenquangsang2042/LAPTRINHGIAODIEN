@@ -18,6 +18,7 @@ namespace W5_B2
             InitializeComponent();
             timer1.Enabled = true;
             timer1.Interval = 1000;
+
              
             
         }
@@ -30,12 +31,21 @@ namespace W5_B2
         private void Form1_Load(object sender, EventArgs e)
         {
             
-           
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             this.progressBar1.Increment(1);
+            if (this.progressBar1.Value == 15)
+            {
+                this.timer1.Enabled = false;
+                this.Hide();
+
+                Week4_B1.Form1 form = new Week4_B1.Form1();
+                form.ShowDialog();
+                this.Close();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

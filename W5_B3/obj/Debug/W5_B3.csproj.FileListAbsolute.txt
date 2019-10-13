@@ -1,0 +1,9 @@
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\bin\Debug\W5_B3.exe.config
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\bin\Debug\W5_B3.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\bin\Debug\W5_B3.pdb
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.csprojAssemblyReference.cache
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.Form1.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.Properties.Resources.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.csproj.GenerateResource.cache
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.pdb
