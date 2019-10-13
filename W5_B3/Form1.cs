@@ -12,6 +12,9 @@ namespace W5_B3
 {
     public partial class Form1 : Form
     {
+        string gettimeStart1, gettimeStop1,gettimeStart2, gettimeStop2;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -23,11 +26,7 @@ namespace W5_B3
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DateTime now = DateTime.Now;
-            int h = now.Hour;
-            int m = now.Minute;
-            int s = now.Second;
-            this.label1.Text = Convert.ToString(h + "/" + m + "/" + s);
+          
            
         }
 
@@ -46,6 +45,10 @@ namespace W5_B3
             timer1.Enabled = true;
             btn1batdau.Enabled = false;
             btl1ketthuc.Enabled = true;
+            gettimeStart1 = DateTime.Now.ToString("HH:mm:ss");
+
+
+
         }
 
         private void btnbatdau2_Click(object sender, EventArgs e)
@@ -53,6 +56,9 @@ namespace W5_B3
             timer2.Enabled = true;
             btnbatdau2.Enabled = false;
             btnketthuc2.Enabled = true;
+            gettimeStart2 = DateTime.Now.ToString("HH:mm:ss");
+
+
         }
 
         private void btl1ketthuc_Click(object sender, EventArgs e)
@@ -61,6 +67,8 @@ namespace W5_B3
             
             btn1batdau.Enabled = true;
             btl1ketthuc.Enabled = false;
+            gettimeStop1 = DateTime.Now.ToString("HH:mm:ss");
+            MessageBox.Show("from  "+gettimeStart1.ToString()+" To "+gettimeStop1);
         }
 
         private void btnketthuc2_Click(object sender, EventArgs e)
@@ -69,6 +77,9 @@ namespace W5_B3
 
             btnbatdau2.Enabled = true;
             btnketthuc2.Enabled = false;
+            gettimeStop2 = DateTime.Now.ToString("HH:mm:ss");
+            MessageBox.Show("from  " + gettimeStart2.ToString() + " To " + gettimeStop2);
+
         }
     }
 }

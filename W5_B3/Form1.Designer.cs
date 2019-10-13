@@ -31,23 +31,23 @@
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btn1batdau = new System.Windows.Forms.Button();
-            this.btl1ketthuc = new System.Windows.Forms.Button();
-            this.btnbatdau2 = new System.Windows.Forms.Button();
-            this.btnketthuc2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btl1ketthuc = new System.Windows.Forms.Button();
+            this.btn1batdau = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnketthuc2 = new System.Windows.Forms.Button();
+            this.btnbatdau2 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -70,6 +70,56 @@
             this.panel2.Size = new System.Drawing.Size(635, 187);
             this.panel2.TabIndex = 1;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Chocolate;
+            this.label3.Location = new System.Drawing.Point(437, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 31);
+            this.label3.TabIndex = 4;
+            // 
+            // btl1ketthuc
+            // 
+            this.btl1ketthuc.Location = new System.Drawing.Point(273, 81);
+            this.btl1ketthuc.Name = "btl1ketthuc";
+            this.btl1ketthuc.Size = new System.Drawing.Size(88, 25);
+            this.btl1ketthuc.TabIndex = 3;
+            this.btl1ketthuc.Text = "kết thúc";
+            this.btl1ketthuc.UseVisualStyleBackColor = true;
+            this.btl1ketthuc.Click += new System.EventHandler(this.btl1ketthuc_Click);
+            // 
+            // btn1batdau
+            // 
+            this.btn1batdau.Location = new System.Drawing.Point(274, 49);
+            this.btn1batdau.Name = "btn1batdau";
+            this.btn1batdau.Size = new System.Drawing.Size(88, 25);
+            this.btn1batdau.TabIndex = 2;
+            this.btn1batdau.Text = "Bắt đầu";
+            this.btn1batdau.UseVisualStyleBackColor = true;
+            this.btn1batdau.Click += new System.EventHandler(this.btn1batdau_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.Image = global::W5_B3.Properties.Resources.thegioigear_firebasex2_a_400fbe64c54b4b31b1c1c03631a977722;
+            this.pictureBox1.Location = new System.Drawing.Point(70, 53);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(107, 93);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(31, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Máy 1";
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.label4);
@@ -82,53 +132,15 @@
             this.panel3.Size = new System.Drawing.Size(634, 191);
             this.panel3.TabIndex = 2;
             // 
-            // label1
+            // label4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Máy 1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Máy 2";
-            // 
-            // btn1batdau
-            // 
-            this.btn1batdau.Location = new System.Drawing.Point(274, 49);
-            this.btn1batdau.Name = "btn1batdau";
-            this.btn1batdau.Size = new System.Drawing.Size(88, 25);
-            this.btn1batdau.TabIndex = 2;
-            this.btn1batdau.Text = "Bắt đầu";
-            this.btn1batdau.UseVisualStyleBackColor = true;
-            this.btn1batdau.Click += new System.EventHandler(this.btn1batdau_Click);
-            // 
-            // btl1ketthuc
-            // 
-            this.btl1ketthuc.Location = new System.Drawing.Point(273, 81);
-            this.btl1ketthuc.Name = "btl1ketthuc";
-            this.btl1ketthuc.Size = new System.Drawing.Size(88, 25);
-            this.btl1ketthuc.TabIndex = 3;
-            this.btl1ketthuc.Text = "kết thúc";
-            this.btl1ketthuc.UseVisualStyleBackColor = true;
-            this.btl1ketthuc.Click += new System.EventHandler(this.btl1ketthuc_Click);
-            // 
-            // btnbatdau2
-            // 
-            this.btnbatdau2.Location = new System.Drawing.Point(274, 74);
-            this.btnbatdau2.Name = "btnbatdau2";
-            this.btnbatdau2.Size = new System.Drawing.Size(88, 25);
-            this.btnbatdau2.TabIndex = 3;
-            this.btnbatdau2.Text = "Bắt đầu";
-            this.btnbatdau2.UseVisualStyleBackColor = true;
-            this.btnbatdau2.Click += new System.EventHandler(this.btnbatdau2_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Chocolate;
+            this.label4.Location = new System.Drawing.Point(440, 74);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 31);
+            this.label4.TabIndex = 5;
             // 
             // btnketthuc2
             // 
@@ -140,36 +152,15 @@
             this.btnketthuc2.UseVisualStyleBackColor = true;
             this.btnketthuc2.Click += new System.EventHandler(this.btnketthuc2_Click);
             // 
-            // label3
+            // btnbatdau2
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Chocolate;
-            this.label3.Location = new System.Drawing.Point(437, 53);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 31);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Chocolate;
-            this.label4.Location = new System.Drawing.Point(440, 74);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 31);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "label4";
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.btnbatdau2.Location = new System.Drawing.Point(274, 74);
+            this.btnbatdau2.Name = "btnbatdau2";
+            this.btnbatdau2.Size = new System.Drawing.Size(88, 25);
+            this.btnbatdau2.TabIndex = 3;
+            this.btnbatdau2.Text = "Bắt đầu";
+            this.btnbatdau2.UseVisualStyleBackColor = true;
+            this.btnbatdau2.Click += new System.EventHandler(this.btnbatdau2_Click);
             // 
             // pictureBox2
             // 
@@ -181,15 +172,22 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // label2
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Image = global::W5_B3.Properties.Resources.thegioigear_firebasex2_a_400fbe64c54b4b31b1c1c03631a977722;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 53);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 93);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(25, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Máy 2";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // Form1
             // 
@@ -204,10 +202,10 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
