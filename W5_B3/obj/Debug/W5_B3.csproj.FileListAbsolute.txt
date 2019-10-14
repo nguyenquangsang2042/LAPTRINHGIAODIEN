@@ -7,3 +7,13 @@ C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5
 C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.csproj.GenerateResource.cache
 C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.exe
 C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.pdb
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\bin\Debug\W5_B3.exe.config
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\bin\Debug\W5_B3.exe
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\bin\Debug\W5_B3.pdb
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.csprojAssemblyReference.cache
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.Form1.resources
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.Properties.Resources.resources
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.csproj.GenerateResource.cache
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.csproj.CoreCompileInputs.cache
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.exe
+D:\project\c#\LAPTRINHGIAODIEN\W5_B3\obj\Debug\W5_B3.pdb
