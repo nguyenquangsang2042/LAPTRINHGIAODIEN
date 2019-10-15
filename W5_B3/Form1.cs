@@ -74,7 +74,7 @@ namespace W5_B3
             gettimeStop1 = DateTime.Now.ToString("HH:mm:ss");
             h_1stop = DateTime.Now.Hour;
             m_1stop = DateTime.Now.Minute;
-            MessageBox.Show(h_1start+":"+m_1start+"\n"+h_1stop+":"+m_1stop);
+            MessageBox.Show("Bạn chơi từ"+gettimeStart1+" đến "+gettimeStop1+"\n Số tiền phải trả là"+tinhtien_Compputer1().ToString());
         }
 
         private void btnketthuc2_Click(object sender, EventArgs e)
@@ -84,9 +84,9 @@ namespace W5_B3
             btnbatdau2.Enabled = true;
             btnketthuc2.Enabled = false;
             gettimeStop2 = DateTime.Now.ToString("HH:mm:ss");
-            h_1stop = DateTime.Now.Hour;
-            m_1stop = DateTime.Now.Minute;
-            MessageBox.Show(h_2start + ":" + m2_start + "\n" + h_2stop + ":" + m_2stop);
+            h_2stop = DateTime.Now.Hour;
+            m_2stop = DateTime.Now.Minute;
+            MessageBox.Show("Bạn chơi từ" + gettimeStart2 + " đến " + gettimeStop2 + "\n Số tiền phải trả là" + tinhtien_Compputer2().ToString());
 
 
         }
@@ -107,11 +107,16 @@ namespace W5_B3
             return h_2stop + (m_2stop / 60);
         }
 
-        private float tinhtien()
+        private float tinhtien_Compputer1()
         {
 
             return (convert_Minute_To_Hour_Computer1_stop() - convert_Minute_To_Hour_Computer1_start())*3000;
         }
-       
+        private float tinhtien_Compputer2()
+        {
+
+            return (convert_Minute_To_Hour_Computer2_stop() - convert_Minute_To_Hour_Computer2_start()) * 3000;
+        }
+
     }
 }
