@@ -37,12 +37,12 @@ namespace W5_B2
         private void timer1_Tick(object sender, EventArgs e)
         {
             this.progressBar1.Increment(1);
-            if (this.progressBar1.Value == 15)
+            if (this.progressBar1.Value == 3)
             {
                 this.timer1.Enabled = false;
                 this.Hide();
 
-                Week4_B1.Form1 form = new Week4_B1.Form1();
+                W5_B3.Form1 form = new W5_B3.Form1();
                 form.ShowDialog();
                 this.Close();
             }
@@ -50,9 +50,9 @@ namespace W5_B2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
             
-            Week4_B1.Form1 form=new Week4_B1.Form1();
+            this.Hide();
+            W5_B3.Form1 form=new W5_B3.Form1();
             form.ShowDialog();
             this.Close();
           

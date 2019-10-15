@@ -13,7 +13,7 @@ namespace W5_B3
     public partial class Form1 : Form
     {
         string gettimeStart1, gettimeStop1,gettimeStart2, gettimeStop2;
-        float h_1start, h_1stop, m_1stop, m_1start, h_2start, h_2stop, m_2stop, m2_start;
+        float h_1start, h_1stop, m_1stop,s1_star,s1_stop, m_1start, h_2start, h_2stop, m_2stop, m2_start, s2_star, s2_stop;
 
         public Form1()
         {
@@ -48,6 +48,7 @@ namespace W5_B3
             gettimeStart1 = DateTime.Now.ToString("HH:mm:ss");
             h_1start = DateTime.Now.Hour;
             m_1start = DateTime.Now.Minute;
+            s1_star = DateTime.Now.Second;
 
 
 
@@ -62,6 +63,7 @@ namespace W5_B3
             gettimeStart2 = DateTime.Now.ToString("HH:mm:ss");
             h_2start = DateTime.Now.Hour;
             m2_start = DateTime.Now.Minute;
+            s2_star = DateTime.Now.Second;
 
         }
 
@@ -74,6 +76,7 @@ namespace W5_B3
             gettimeStop1 = DateTime.Now.ToString("HH:mm:ss");
             h_1stop = DateTime.Now.Hour;
             m_1stop = DateTime.Now.Minute;
+            s1_stop = DateTime.Now.Second;
             MessageBox.Show("Bạn chơi từ"+gettimeStart1+" đến "+gettimeStop1+"\n Số tiền phải trả là"+tinhtien_Compputer1().ToString());
         }
 
@@ -86,25 +89,26 @@ namespace W5_B3
             gettimeStop2 = DateTime.Now.ToString("HH:mm:ss");
             h_2stop = DateTime.Now.Hour;
             m_2stop = DateTime.Now.Minute;
+            s2_stop = DateTime.Now.Second;
             MessageBox.Show("Bạn chơi từ" + gettimeStart2 + " đến " + gettimeStop2 + "\n Số tiền phải trả là" + tinhtien_Compputer2().ToString());
 
 
         }
         private float convert_Minute_To_Hour_Computer1_start()
         {
-            return h_1start + (m_1start / 60);
+            return (h_1start + (m_1start / 60))*3600+s1_star;
         }
         private float convert_Minute_To_Hour_Computer2_start()
         {
-            return h_2start + (m2_start / 60);
+            return (h_2start + (m2_start / 60))*3600+s2_star;
         }
         private float convert_Minute_To_Hour_Computer1_stop()
         {
-            return h_1stop + (m_1stop / 60);
+            return (h_1stop + (m_1stop / 60))*3600+s1_stop;
         }
         private float convert_Minute_To_Hour_Computer2_stop()
         {
-            return h_2stop + (m_2stop / 60);
+            return (h_2stop + (m_2stop / 60)) * 3600+s2_stop;
         }
 
         private float tinhtien_Compputer1()

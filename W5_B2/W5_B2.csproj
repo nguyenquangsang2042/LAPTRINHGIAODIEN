@@ -89,6 +89,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\W5_B3\W5_B3.csproj">
+      <Project>{e2b8ef65-e620-4877-8cef-693f60b9abc0}</Project>
+      <Name>W5_B3</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Week4_B1\Week4_B1.csproj">
       <Project>{2b4b5cf1-0cbc-4d98-b1d7-75324dd12ddb}</Project>
       <Name>Week4_B1</Name>

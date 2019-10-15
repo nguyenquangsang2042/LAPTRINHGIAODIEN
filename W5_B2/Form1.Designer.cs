@@ -38,7 +38,7 @@
             // 
             this.progressBar1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.progressBar1.Location = new System.Drawing.Point(112, 50);
-            this.progressBar1.Maximum = 15;
+            this.progressBar1.Maximum = 3;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(373, 23);
             this.progressBar1.TabIndex = 0;

@@ -1,0 +1,10 @@
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\bin\Debug\W5_B6(B1_Chuong6).exe.config
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\bin\Debug\W5_B6(B1_Chuong6).exe
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\bin\Debug\W5_B6(B1_Chuong6).pdb
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6(B1_Chuong6).csprojAssemblyReference.cache
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6_B1_Chuong6_.Form1.resources
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6_B1_Chuong6_.Properties.Resources.resources
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6(B1_Chuong6).csproj.GenerateResource.cache
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6(B1_Chuong6).csproj.CoreCompileInputs.cache
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6(B1_Chuong6).exe
+D:\project\c#\LAPTRINHGIAODIEN\W5_B6(B1_Chuong6)\obj\Debug\W5_B6(B1_Chuong6).pdb
