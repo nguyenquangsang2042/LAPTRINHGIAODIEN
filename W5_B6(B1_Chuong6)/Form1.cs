@@ -20,7 +20,15 @@ namespace W5_B6_B1_Chuong6_
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            
+            foreach (TreeNode node in treeView1.Nodes)
+            {
+                if (node.Text.ElementAt(0) == textBox1.Text.ToString().ElementAt(0))
+                {
+                    TreeNode n = new TreeNode(textBox1.Text + "," + textBox2.Text);
+                    n.ImageIndex = 0;
+                    node.Nodes.Add(n);
+                }
+            }
         }
         private void searchNode()
         {

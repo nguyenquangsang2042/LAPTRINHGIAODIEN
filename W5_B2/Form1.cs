@@ -50,7 +50,7 @@ namespace W5_B2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            timer1.Enabled = false;
             this.Hide();
             W5_B3.Form1 form=new W5_B3.Form1();
             form.ShowDialog();
