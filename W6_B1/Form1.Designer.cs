@@ -53,13 +53,15 @@
             // txtHT
             // 
             this.txtHT.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHT.Location = new System.Drawing.Point(18, 13);
+            this.txtHT.Location = new System.Drawing.Point(12, 57);
             this.txtHT.Multiline = true;
             this.txtHT.Name = "txtHT";
-            this.txtHT.ReadOnly = true;
             this.txtHT.Size = new System.Drawing.Size(261, 64);
             this.txtHT.TabIndex = 0;
             this.txtHT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtHT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtHT_KeyDown);
+            this.txtHT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHT_KeyPress);
+            this.txtHT.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtHT_KeyUp);
             // 
             // tableLayoutPanel1
             // 
@@ -84,7 +86,7 @@
             this.tableLayoutPanel1.Controls.Add(this.buttonC, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.buttonBang, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.buttonChia, 3, 3);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 83);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 127);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.27586F));
@@ -93,6 +95,8 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(261, 231);
             this.tableLayoutPanel1.TabIndex = 1;
+            this.tableLayoutPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tableLayoutPanel1_MouseDown);
+            this.tableLayoutPanel1.MouseEnter += new System.EventHandler(this.tableLayoutPanel1_MouseEnter);
             // 
             // button1
             // 
@@ -123,6 +127,12 @@
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button2_MouseDown);
+            this.button2.MouseEnter += new System.EventHandler(this.Button2_MouseEnter);
+            this.button2.MouseLeave += new System.EventHandler(this.Button2_MouseLeave);
+            this.button2.MouseHover += new System.EventHandler(this.Button2_MouseHover);
+            this.button2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button2_MouseMove);
+            this.button2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button2_MouseUp);
             // 
             // button3
             // 
@@ -134,6 +144,12 @@
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
+            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button3_MouseDown);
+            this.button3.MouseEnter += new System.EventHandler(this.Button3_MouseEnter);
+            this.button3.MouseLeave += new System.EventHandler(this.Button3_MouseLeave);
+            this.button3.MouseHover += new System.EventHandler(this.Button3_MouseHover);
+            this.button3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button3_MouseMove);
+            this.button3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button3_MouseUp);
             // 
             // buttonCong
             // 
@@ -146,6 +162,12 @@
             this.buttonCong.UseVisualStyleBackColor = true;
             this.buttonCong.Click += new System.EventHandler(this.ButtonCong_Click);
             this.buttonCong.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ButtonCong_KeyDown);
+            this.buttonCong.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonCong_MouseDown);
+            this.buttonCong.MouseEnter += new System.EventHandler(this.ButtonCong_MouseEnter);
+            this.buttonCong.MouseLeave += new System.EventHandler(this.ButtonCong_MouseLeave);
+            this.buttonCong.MouseHover += new System.EventHandler(this.ButtonCong_MouseHover);
+            this.buttonCong.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButtonCong_MouseMove);
+            this.buttonCong.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buttonCong_MouseUp);
             // 
             // button4
             // 
@@ -157,6 +179,12 @@
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
+            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button4_MouseDown);
+            this.button4.MouseEnter += new System.EventHandler(this.Button4_MouseEnter);
+            this.button4.MouseLeave += new System.EventHandler(this.Button4_MouseLeave);
+            this.button4.MouseHover += new System.EventHandler(this.Button4_MouseHover);
+            this.button4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button4_MouseMove);
+            this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button4_MouseUp);
             // 
             // button5
             // 
@@ -168,6 +196,12 @@
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.Button5_Click);
+            this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button5_MouseDown);
+            this.button5.MouseEnter += new System.EventHandler(this.Button5_MouseEnter);
+            this.button5.MouseLeave += new System.EventHandler(this.Button5_MouseLeave);
+            this.button5.MouseHover += new System.EventHandler(this.Button5_MouseHover);
+            this.button5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button5_MouseMove);
+            this.button5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button5_MouseUp);
             // 
             // button6
             // 
@@ -179,6 +213,12 @@
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.Button6_Click);
+            this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button6_MouseDown);
+            this.button6.MouseEnter += new System.EventHandler(this.Button6_MouseEnter);
+            this.button6.MouseLeave += new System.EventHandler(this.Button6_MouseLeave);
+            this.button6.MouseHover += new System.EventHandler(this.Button6_MouseHover);
+            this.button6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button6_MouseMove);
+            this.button6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button6_MouseUp);
             // 
             // buttonTru
             // 
@@ -190,6 +230,12 @@
             this.buttonTru.Text = "-";
             this.buttonTru.UseVisualStyleBackColor = true;
             this.buttonTru.Click += new System.EventHandler(this.ButtonTru_Click);
+            this.buttonTru.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonTru_MouseDown);
+            this.buttonTru.MouseEnter += new System.EventHandler(this.ButtonTru_MouseEnter);
+            this.buttonTru.MouseLeave += new System.EventHandler(this.ButtonTru_MouseLeave);
+            this.buttonTru.MouseHover += new System.EventHandler(this.ButtonTru_MouseHover);
+            this.buttonTru.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButtonTru_MouseMove);
+            this.buttonTru.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buttonTru_MouseUp);
             // 
             // button7
             // 
@@ -201,6 +247,12 @@
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button7_MouseDown);
+            this.button7.MouseEnter += new System.EventHandler(this.Button7_MouseEnter);
+            this.button7.MouseLeave += new System.EventHandler(this.Button7_MouseLeave);
+            this.button7.MouseHover += new System.EventHandler(this.Button7_MouseHover);
+            this.button7.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button7_MouseMove);
+            this.button7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button7_MouseUp);
             // 
             // button8
             // 
@@ -212,6 +264,12 @@
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.Button8_Click);
+            this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button8_MouseDown);
+            this.button8.MouseEnter += new System.EventHandler(this.Button8_MouseEnter);
+            this.button8.MouseLeave += new System.EventHandler(this.Button8_MouseLeave);
+            this.button8.MouseHover += new System.EventHandler(this.Button8_MouseHover);
+            this.button8.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button8_MouseMove);
+            this.button8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button8_MouseUp);
             // 
             // button9
             // 
@@ -223,6 +281,12 @@
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.Button9_Click);
+            this.button9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button9_MouseDown);
+            this.button9.MouseEnter += new System.EventHandler(this.Button9_MouseEnter);
+            this.button9.MouseLeave += new System.EventHandler(this.Button9_MouseLeave);
+            this.button9.MouseHover += new System.EventHandler(this.Button9_MouseHover);
+            this.button9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button9_MouseMove);
+            this.button9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button9_MouseUp);
             // 
             // buttonNhan
             // 
@@ -234,6 +298,12 @@
             this.buttonNhan.Text = "X";
             this.buttonNhan.UseVisualStyleBackColor = true;
             this.buttonNhan.Click += new System.EventHandler(this.ButtonNhan_Click);
+            this.buttonNhan.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonNhan_MouseDown);
+            this.buttonNhan.MouseEnter += new System.EventHandler(this.ButtonNhan_MouseEnter);
+            this.buttonNhan.MouseLeave += new System.EventHandler(this.ButtonNhan_MouseLeave);
+            this.buttonNhan.MouseHover += new System.EventHandler(this.ButtonNhan_MouseHover);
+            this.buttonNhan.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButtonNhan_MouseMove);
+            this.buttonNhan.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buttonNhan_MouseUp);
             // 
             // button0
             // 
@@ -245,6 +315,12 @@
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = true;
             this.button0.Click += new System.EventHandler(this.Button0_Click);
+            this.button0.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Button0_MouseDown);
+            this.button0.MouseEnter += new System.EventHandler(this.Button0_MouseEnter);
+            this.button0.MouseLeave += new System.EventHandler(this.Button0_MouseLeave);
+            this.button0.MouseHover += new System.EventHandler(this.Button0_MouseHover);
+            this.button0.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button0_MouseMove);
+            this.button0.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Button0_MouseUp);
             // 
             // buttonC
             // 
@@ -256,6 +332,12 @@
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
             this.buttonC.Click += new System.EventHandler(this.ButtonC_Click);
+            this.buttonC.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonC_MouseDown);
+            this.buttonC.MouseEnter += new System.EventHandler(this.ButtonC_MouseEnter);
+            this.buttonC.MouseLeave += new System.EventHandler(this.ButtonC_MouseLeave);
+            this.buttonC.MouseHover += new System.EventHandler(this.ButtonC_MouseHover);
+            this.buttonC.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButtonC_MouseMove);
+            this.buttonC.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ButtonC_MouseUp);
             // 
             // buttonBang
             // 
@@ -267,6 +349,12 @@
             this.buttonBang.Text = "=";
             this.buttonBang.UseVisualStyleBackColor = true;
             this.buttonBang.Click += new System.EventHandler(this.ButtonBang_Click);
+            this.buttonBang.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonBang_MouseDown);
+            this.buttonBang.MouseEnter += new System.EventHandler(this.ButtonBang_MouseEnter);
+            this.buttonBang.MouseLeave += new System.EventHandler(this.ButtonBang_MouseLeave);
+            this.buttonBang.MouseHover += new System.EventHandler(this.ButtonBang_MouseHover);
+            this.buttonBang.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButtonBang_MouseMove);
+            this.buttonBang.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ButtonBang_MouseUp);
             // 
             // buttonChia
             // 
@@ -278,11 +366,17 @@
             this.buttonChia.Text = "/";
             this.buttonChia.UseVisualStyleBackColor = true;
             this.buttonChia.Click += new System.EventHandler(this.ButtonChia_Click);
+            this.buttonChia.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButtonChia_MouseDown);
+            this.buttonChia.MouseEnter += new System.EventHandler(this.ButtonChia_MouseEnter);
+            this.buttonChia.MouseLeave += new System.EventHandler(this.ButtonChia_MouseLeave);
+            this.buttonChia.MouseHover += new System.EventHandler(this.ButtonChia_MouseHover);
+            this.buttonChia.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButtonChia_MouseMove);
+            this.buttonChia.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buttonChia_MouseUp);
             // 
             // labelShow
             // 
             this.labelShow.AutoSize = true;
-            this.labelShow.Location = new System.Drawing.Point(370, 28);
+            this.labelShow.Location = new System.Drawing.Point(99, 18);
             this.labelShow.Name = "labelShow";
             this.labelShow.Size = new System.Drawing.Size(56, 13);
             this.labelShow.TabIndex = 2;
@@ -292,7 +386,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 322);
+            this.ClientSize = new System.Drawing.Size(286, 361);
             this.Controls.Add(this.labelShow);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.txtHT);

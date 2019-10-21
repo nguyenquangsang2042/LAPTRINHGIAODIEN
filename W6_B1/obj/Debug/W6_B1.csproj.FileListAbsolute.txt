@@ -8,3 +8,12 @@ D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csproj.GenerateResource.cac
 D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csproj.CoreCompileInputs.cache
 D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.exe
 D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.pdb
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csprojAssemblyReference.cache
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.Form1.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.Properties.Resources.resources
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csproj.GenerateResource.cache
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.pdb
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\bin\Debug\W6_B1.exe.config
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\bin\Debug\W6_B1.exe
+C:\Users\sangn\source\repos\LAPTRINHGIAODIEN\LAPTRINHGIAODIEN\W6_B1\bin\Debug\W6_B1.pdb
