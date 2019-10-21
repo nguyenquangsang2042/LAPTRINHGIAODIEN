@@ -1,0 +1,10 @@
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\bin\Debug\W6_B1.exe.config
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\bin\Debug\W6_B1.exe
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\bin\Debug\W6_B1.pdb
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csprojAssemblyReference.cache
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.Form1.resources
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.Properties.Resources.resources
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csproj.GenerateResource.cache
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.csproj.CoreCompileInputs.cache
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.exe
+D:\project\c#\LAPTRINHGIAODIEN\W6_B1\obj\Debug\W6_B1.pdb
